@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  overflow: hidden;
+  padding: 20px 10px;
+  border-bottom: .5px white;
+  border-top: .3px solid white;
+}
+
+.header a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  box-sizing: border-box;
+  padding-left: 81px;
+
+}
+
+/* Change the background color on mouse-over */
+.logo:hover {
+  background-color: rgb(254, 254, 254);
+  color: rgb(1, 1, 1);
+}
+
+
+.header-right {
+  float: right;
+}
+
+.header-right a:hover {
+  background-color: rgb(5, 17, 28);
+  color: yellow;
+}
+
+.main .img img {
+  width: 100vh;
+  height: 80vh;
+}
+
+.main .image .learning {
+  background-color: blanchedalmond;
+  margin: 10px;
+  padding: 10px;
+  width: 15px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.asianpaints.com/content/dam/asian_paints/wall-coverings/nal-sarovar/room-shots/wallpaper-room-shot-asian-paints-W172XM40N75.jpeg);
+  background-size: cover;
+  background-origin: content-box;
+
+}
+
+.background {
+  border: 2px solid rgb(249, 249, 249);
+  margin-top: 3px;
+  box-sizing: border-box;
+  padding: 22px;
+  font-size: large;
+  font-style: oblique;
+  color: #00dbffb0;
+  background-origin: content-box;
+}
