@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0 15px;
+
+}
+
+span {
+    color: white;
+
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    height: 45px;
+    width: 87%;
+    border: none;
+
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 15px 45px;
+    margin: 13px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+    background: white;
+
+
+
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.bottom {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: small;
+    margin-top: 10px;
+
+}
+
+.left {
+    display: flex;
+
+}
+
+label a {
+    color: white;
+    text-decoration: none;
+
+}
