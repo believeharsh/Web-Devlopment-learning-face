@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .outer-box {
+            width: 100vw;
+            height: 100vw;
+            background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+        }
+
+        .inner-box {
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+            top: 40%;
+            transform: translateY(-50%);
+            padding: 20px 40px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px #2773a5;
+
+        }
+
+        .signup h1 {
+            font-size: 2.5rem;
+            color: #212121;
+        }
+
+        .signup p {
+            color: #555;
+        }
+
+        .sign-up-body {
+            margin: 10px 10px;
+
+        }
+
+        .sign-up-body p {
+            margin: 10px 0px;
+        }
+
+        .sign-up-body label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .sign-up-body input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cccc;
+            border-radius: 4px;
+            margin-top: 4px;
+        }
+
+        .sign-up-body p input[type="submit"] {
+            background-color: #3498db;
+            border: none;
+            color: white;
+
+        }
+
+        .sign-up-body p input[type="submit"]:hover {
+            background-color: #2e81b8;
+            cursor: pointer;
+
+        }
+
+        .sighnup-footer p {
+            color: #555;
+            text-align: center;
+
+        }
+
+        .sighnup-footer p a {
+            color: #555;
+            font-weight: bold;
+        }
+
+        .circle {
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            background: linear-gradient(to top right, #ffffffaa, #ffffff);
+            position: absolute;
+        }
+
+        .c1 {
+            top: 100px;
+            left: 20px;
+        
+
+        }
+
+        .c2 {
+            bottom: 200px;
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup">
+                <h1>signup</h1>
+                <p>It's just take 30 seconds</p>
+            </header>
+            <main class="sign-up-body">
+                <form action="">
+                    <p>
+                        <label for="fullname">Fullname</label>
+                        <input type=" text" id="fullname" placeholder="Harsh Dahiya " required>
+                    </p>
+                    <p>
+                        <label for="fullname">email</label>
+                        <input type="email" id="email" placeholder="bontinue@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="fullname">password</label>
+                        <input type="password" id="password" placeholder="alteast 8 charcters" required>
+                    </p>
+                    <p>
+                        <!-- <label for="fullname"></label> -->
+                        <input type="submit" id="submit" value="create Account" required>
+
+                </form>
+            </main>
+            <footer class="sighnup-footer"></footer>
+            <p>already have an account ?<a href="a">login</a></p>
+
+        </div>
+        <div class="circle c1 "></div>
+        <div class="circle c2 "></div>
+    </div>
+
+
+</body>
+
+</html>
